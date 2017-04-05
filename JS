@@ -1,0 +1,44 @@
+*
+Using document.write() after an HTML document is fully loaded, will delete all existing HTML:
+JavaScript statements are separated by semicolons:
+
+*
+Code after double slashes // or between /* and */ is treated as a comment.
+
+*
+
+
+*
+
+
+*
+
+
+*
+
+
+*
+
+
+*
+
+
+*
+
+
+*
+
+
+*
+
+
+*
+
+
+*
+
+
+*
+
+
+*
