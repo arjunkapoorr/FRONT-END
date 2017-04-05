@@ -1,0 +1,96 @@
+*
+Using document.write() after an HTML document is fully loaded, will delete all existing HTML:
+JavaScript statements are separated by semicolons:
+
+*
+Code after double slashes // or between /* and */ is treated as a comment.
+
+*
+===	equal value and equal type
+!==	not equal value or not equal type
+
+*
+When many operations have the same precedence (like addition and subtraction), they are computed from left to right:
+JavaScript evaluates expressions from left to right.
+*
+var x = {firstName:"John", lastName:"Doe"};    // Object
+var y = 123e5;      // 12300000
+var cars = ["Saab", "Volvo", "BMW"];
+Arrays can be heterogeneous.
+var person;                // Value is undefined, type is undefined
+var person = null;         // Value is null, but type is still an object
+
+function myFunction(a, b) {
+    return a * b;                // Function returns the product of a and b
+}
+// no need to declare var in function parameters]
+*
+When adding a number and a string, JavaScript will treat the number as a string.
+Accessing a function without () will return the function definition instead of the function result:
+
+
+*
+objectName.propertyName
+objectName.methodName()
+
+*
+If you assign a value to a variable that has not been declared, it will automatically become a GLOBAL variable.
+
+This code example will declare a global variable carName, even if the value is assigned inside a function.
+
+*
+var sln = txt.length;   / for finding length of a string
+
+var str = "Please locate where 'locate' occurs!";
+var pos = str.indexOf("locate");
+var pos = str.lastIndexOf("locate");
+var pos = str.search("locate");
+
+var str = "Apple, Banana, Kiwi";
+var res = str.slice(7, 13);
+var res = str.slice(-12, -6);
+var res = str.slice(7);
+
+substring() is similar to slice().
+The difference is that substring() cannot accept negative indexes.
+
+substr() is similar to slice().
+The difference is that the second parameter specifies the length of the extracted part.
+
+str = "Please visit Microsoft!";
+var n = str.replace("Microsoft", "W3Schools");
+var n = str.replace(/Microsoft/g, "W3Schools");
+The replace() method does not change the string it is called on. It returns a new string.
+
+toUpperCase():
+
+text1.concat(" ",text2);
+
+str.charAt(0);
+
+convert string to array
+var txt = "a,b,c,d,e";   // String
+txt.split(",");          // Split on commas
+txt.split(" ");          // Split on spaces
+txt.split("|");          // Split on pipe
+
+
+
+
+
+*
+
+
+*
+
+
+*
+
+
+*
+
+
+*
+
+
+*
